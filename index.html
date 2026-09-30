@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohammad Saif — Software Developer</title>
+<meta name="description" content="Portfolio of Mohammad Saif, MCA graduate (University of Allahabad, 2025) focused on Python, databases and backend development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stars"></div><div class="shoot s1"></div><div class="shoot s2"></div><div class="shoot s3"></div><div class="bg-grid"></div><div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div><div class="glow g4"></div><div id="cursor-glow"></div>
+
+<nav id="nav"><a href="#home" class="logo">saif<span>.</span></a>
+  <button id="burger" aria-label="Menu"><i></i><i></i></button>
+  <ul id="menu">
+    <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li>
+    <li><a href="#certs">Certifications</a></li><li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header id="home" class="hero">
+  <div class="hero-in">
+    <div class="hero-txt">
+      <p class="hi">Hi, I'm Mohammad Saif</p>
+      <h1><span class="line"><span>Building my journey</span></span><span class="line"><span>in Software Development.</span></span></h1>
+      <p class="roles"><span id="role">Python Developer</span></p>
+      <p class="sub">MCA graduate focused on Python, databases, backend development, cloud technologies and continuously expanding my technical skills.</p>
+      <div class="btns">
+        <a href="#projects" class="btn primary magnetic">Explore My Work</a>
+        <a href="assets/Resume.pdf" download class="btn magnetic">Download Resume</a>
+      </div>
+      <!-- ===== SOCIAL LINKS: replace the href values ===== -->
+      <ul class="socials">
+        <li><a href="https://github.com/Mohdsaif777" data-tip="GitHub" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/github.svg" alt="GitHub"></a></li>
+        <li><a href="https://www.linkedin.com/in/moahammad-saif/" data-tip="LinkedIn" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/linkedin.svg" alt="LinkedIn"></a></li>
+        <li><a href="https://www.instagram.com/ibne_al_nadeem/" data-tip="Instagram" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/instagram.svg" alt="Instagram"></a></li>
+        <li><a href="https://wa.me/917703020112" data-tip="WhatsApp" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/whatsapp.svg" alt="WhatsApp"></a></li>
+      </ul>
+    </div>
+    <!-- ===== PROFILE PHOTO: change src to swap the picture ===== -->
+    <div class="orbit-system">
+      <div class="orbit o1"><span class="moon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></span></div>
+      <div class="orbit o2"><span class="moon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></span></div>
+      <div class="orbit o3"><span class="moon"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/postgresql.svg" alt="PostgreSQL"></span></div>
+      <div class="orbit o4"><span class="moon"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/amazonaws.svg" alt="AWS"></span></div>
+      <div class="avatar"><div class="ring"></div><img id="profile-img" src="assets/Photograph.jpg" alt="Mohammad Saif"></div>
+    </div>
+  </div>
+  <a href="#about" class="scroll" aria-label="Scroll down"><i></i></a>
+</header>
+
+<section id="about" class="wrap two">
+  <div>
+    <h2 class="split">About Me</h2>
+    <p class="rv">I am Mohammad Saif, an MCA graduate from the University of Allahabad. I am currently focused on building my career in the IT and software development field through continuous learning and hands-on projects.</p>
+    <p class="rv">My interests:</p>
+    <ul class="chips rv"><li>Python</li><li>Backend Development</li><li>SQL</li><li>PostgreSQL</li><li>AWS</li><li>Networking</li><li>Software Development</li><li>Data Engineering</li></ul>
+  </div>
+  <div class="term rv" id="term">
+    <div class="dots"><i></i><i></i><i></i></div>
+<pre><span class="ln">$ whoami</span>
+<span class="out">Mohammad Saif</span>
+
+<span class="ln">$ education</span>
+<span class="out">MCA — University of Allahabad</span>
+
+<span class="ln">$ focus</span>
+<span class="out">Software Development</span>
+
+<span class="ln">$ learning</span>
+<span class="out">Python → SQL → PostgreSQL → AWS</span><b class="caret"></b></pre>
+  </div>
+</section>
+
+<section id="skills" class="wrap center">
+  <h2 class="split">Technical Skills</h2>
+  <p class="rv lead">Tools and technologies I use and am learning to build software — orbiting like a small solar system.</p>
+  <div class="solar-skills rv" id="solarSkills">
+    <div class="sun-core">&lt;/&gt;</div>
+  </div>
+  <div class="skill-legend rv"><span><i class="dot core"></i> Core skill</span><span><i class="dot learn"></i> Currently learning</span></div>
+  <ul class="chips skill-chips rv" id="skillChips"></ul>
+</section>
+
+<section id="certs" class="wrap">
+  <h2 class="split">Certifications</h2>
+  <div class="grid certs" id="certGrid"></div>
+</section>
+
+<section id="projects" class="wrap">
+  <h2 class="split">Featured Projects</h2>
+  <article class="project rv">
+    <div class="pinfo">
+      <h3>SORTIFY</h3>
+      <p>An interactive sorting-algorithm learning experience designed to make sorting algorithms easier to understand through visual explanations and gameplay.</p>
+      <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Core Python</li></ul>
+      <ul class="feat"><li>Algorithm explanations</li><li>Time complexity</li><li>Space complexity</li><li>Visual sorting</li><li>Interactive challenges</li><li>Multiple levels</li><li>Learning-first approach</li></ul>
+      <p class="algos">Bubble · Selection · Insertion · Merge · Quick Sort</p>
+      <div class="btns">
+        <a href="#" class="btn primary magnetic">Live Demo</a>
+        <a href="#" class="btn magnetic">View Code</a>
+      </div>
+    </div>
+    <div class="mock"><div class="bar-top"><i></i><i></i><i></i><span id="algoName">Bubble Sort</span></div><div id="bars"></div><div class="cx">Time O(n²) · Space O(1)</div></div>
+  </article>
+  <!-- Add more projects here: copy a .card.soon block -->
+  <div class="card soon rv"><h3>More projects coming soon</h3><p>New builds will be added here as they are completed.</p></div>
+</section>
+
+<section id="education" class="wrap">
+  <h2 class="split">Education</h2>
+  <p class="rv lead">My academic path, from school to MCA.</p>
+  <div class="timeline">
+    <div class="tl-line"></div>
+    <div class="tl-item left"><i></i><div class="tl-card"><span class="yr">2023 – 2025</span><div class="ic">🎓</div><span class="lvl">Postgraduate</span><h3>Master of Computer Applications (M.C.A.)</h3><p>University: University of Allahabad</p></div></div>
+    <div class="tl-item right"><i></i><div class="tl-card"><span class="yr">2020 – 2023</span><div class="ic">🎓</div><span class="lvl">Undergraduate</span><h3>Bachelor of Science (B.Sc.)</h3><p>University: Maharaja Agrasen Himalayan Garhwal University</p></div></div>
+    <div class="tl-item left"><i></i><div class="tl-card"><span class="yr">2020</span><div class="ic">📚</div><span class="lvl">Higher Secondary</span><h3>Class XII</h3><p>Board: Council for the Indian School Certificate Examinations (CISCE)</p></div></div>
+    <div class="tl-item right"><i></i><div class="tl-card"><span class="yr">2018</span><div class="ic">📚</div><span class="lvl">Secondary</span><h3>Class X</h3><p>Board: Central Board of Secondary Education (CBSE)</p></div></div>
+  </div>
+</section>
+
+<section id="contact" class="wrap center">
+  <h2 class="split">Let's connect</h2>
+  <p class="rv lead">I'm looking for opportunities in IT and software development — reach out on whichever works best for you.</p>
+  <div class="grid connect">
+    <a class="cx-card rv" href="mailto:saifmohd4422@gmail.com">
+      <span class="cx-ic"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/gmail.svg" alt=""></span>
+      <span class="cx-t"><b>Email</b><i>saifmohd4422@gmail.com</i></span>
+    </a>
+    <a class="cx-card rv" href="https://wa.me/917703020112">
+      <span class="cx-ic"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/whatsapp.svg" alt=""></span>
+      <span class="cx-t"><b>Call / WhatsApp</b><i>+91 77030 20112</i></span>
+    </a>
+    <a class="cx-card rv" href="https://www.linkedin.com/in/moahammad-saif/" target="_blank" rel="noopener">
+      <span class="cx-ic"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/linkedin.svg" alt=""></span>
+      <span class="cx-t"><b>LinkedIn</b><i>Mohammad Saif</i></span>
+    </a>
+    <a class="cx-card rv" href="https://github.com/Mohdsaif777" target="_blank" rel="noopener">
+      <span class="cx-ic"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/github.svg" alt=""></span>
+      <span class="cx-t"><b>GitHub</b><i>@Mohdsaif777</i></span>
+    </a>
+    <a class="cx-card rv" href="https://www.hackerrank.com/profile/saifmohd4422" target="_blank" rel="noopener">
+      <span class="cx-ic"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/hackerrank.svg" alt=""></span>
+      <span class="cx-t"><b>HackerRank</b><i>View Profile</i></span>
+    </a>
+    <!-- ===== RESUME: put your PDF at assets/Mohammad-Saif-Resume.pdf ===== -->
+    <a class="cx-card rv" href="assets/Resume.pdf" download>
+      <span class="cx-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#0e1020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg></span>
+      <span class="cx-t"><b>Download Resume</b><i>Get my latest CV</i></span>
+    </a>
+  </div>
+</section>
+<footer id="site-footer">
+  <div class="foot-glow"></div>
+  <div class="wrap foot-top">
+    <div class="foot-brand">
+      <a href="#home" class="logo">saif<span>.</span></a>
+      <p>MCA graduate building my journey into software development — one project at a time.</p>
+      <p class="status"><i></i> Open to opportunities</p>
+    </div>
+
+    <div class="foot-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    </div>
+
+    <div class="foot-col">
+      <h4>Connect</h4>
+      <ul class="foot-social">
+        <li><a href="mailto:saifmohd4422@gmail.com" data-tip="Email"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/gmail.svg" alt="Email"></a></li>
+        <li><a href="https://wa.me/917703020112" data-tip="WhatsApp"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/whatsapp.svg" alt="WhatsApp"></a></li>
+        <li><a href="https://github.com/Mohdsaif777" target="_blank" rel="noopener" data-tip="GitHub"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/github.svg" alt="GitHub"></a></li>
+        <li><a href="https://www.linkedin.com/in/moahammad-saif/" target="_blank" rel="noopener" data-tip="LinkedIn"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/linkedin.svg" alt="LinkedIn"></a></li>
+        <li><a href="https://www.hackerrank.com/profile/saifmohd4422" target="_blank" rel="noopener" data-tip="HackerRank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/hackerrank.svg" alt="HackerRank"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap foot-bottom">
+    <p>&copy; <span id="yr"></span> Mohammad Saif — built with HTML, CSS &amp; JavaScript.</p>
+    <button id="toTop" class="magnetic" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+    </button>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

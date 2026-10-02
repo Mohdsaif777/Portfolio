@@ -37,15 +37,15 @@ const ROLES = ['Python Developer','Backend Enthusiast','Problem Solver','Tech Le
 // (or edit the paths below to match whatever file names you use)
 const SI = 'https://cdn.jsdelivr.net/npm/simple-icons@11/icons/';
 const CERTS = [
- {p:'IBM',t:'Web Development Fundamentals',i:SI+'ibm.svg',e:'🌐',pdf:'assets/certs/ibm-web-development-fundamentals.pdf'},
- {p:'Scaler',t:'Python & SQL for Data Science',i:SI+'python.svg',e:'🐍',pdf:'assets/certs/scaler-python-sql.pdf'},
+ {p:'IBM',t:'Web Development Fundamentals',i:SI+'ibm.svg',e:'🌐',pdf:'assets/certs/IBM Web Dev Certificate.pdf'},
+ {p:'Scaler',t:'Python & SQL for Data Science',i:SI+'python.svg',e:'🐍',pdf:'assets/certs/Scaler Python and SQL for Data Science.png'},
  {p:'Simplilearn',t:'Prompt Engineering',e:'🤖',pdf:'assets/certs/simplilearn-prompt-engineering.pdf'},
- {p:'LinkedIn Learning',t:'Ethics in the Age of Generative AI',i:SI+'linkedin.svg',e:'⚖️',pdf:'assets/certs/linkedin-learning-genai-ethics.pdf'},
- {p:'Deloitte',t:'Technology Job Simulation',i:SI+'deloitte.svg',e:'💼',pdf:'assets/certs/deloitte-technology-job-simulation.pdf'},
- {p:'Tata Forage',t:'Cybersecurity Analyst Job Simulation',i:SI+'tata.svg',e:'🛡️',pdf:'assets/certs/tata-forage-cybersecurity.pdf'},
- {p:'NVIDIA',t:'Transformer-Based Natural Language Processing',i:SI+'nvidia.svg',e:'🧠',pdf:'assets/certs/nvidia-transformer-nlp.pdf'},
- {p:'Kelcai',t:'Git and GitHub',i:SI+'github.svg',e:'🔀',pdf:'assets/certs/kelcai-git-github.pdf'},
- {p:'Typingtest',t:'40 WPM Typing Speed',e:'⌨️',pdf:'assets/certs/typingtest-40wpm.pdf'}
+ {p:'LinkedIn Learning',t:'Ethics in the Age of Generative AI',i:SI+'linkedin.svg',e:'⚖️',pdf:'assets/certs/Ethics in the Age of Generative AI.pdf'},
+ {p:'Deloitte',t:'Technology Job Simulation',i:SI+'deloitte.svg',e:'💼',pdf:'assets/certs/Deloitte technology job certificate.pdf'},
+ {p:'Tata Forage',t:'Cybersecurity Analyst Job Simulation',i:SI+'tata.svg',e:'🛡️',pdf:'assets/certs/tata certificate.pdf'},
+ {p:'NVIDIA',t:'Transformer-Based Natural Language Processing',i:SI+'nvidia.svg',e:'🧠',pdf:'assets/certs/Nvidia certificate.pdf'},
+ {p:'Kelcai',t:'Git and GitHub',i:SI+'github.svg',e:'🔀',pdf:'assets/certs/git and github certificate.png'},
+ {p:'Typingtest',t:'40 WPM Typing Speed',e:'⌨️',pdf:'assets/certs/40 WPM Typing Speed.pdf'}
 ];
 
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
